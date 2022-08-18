@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Dancing+Script&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(100deg, #ffaad4 30%, #ff62a3 50%);
+    position: relative;
+}
+
+.cabecalho{
+    padding: 20px;
+}
+
+.cabecalho-divisao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between ;
+}
+
+.logo{
+    padding-left: 100px;
+}
+
+.insta{
+    padding-right: 100px;
+}
+
+#logo-header{
+    height: 100px;
+}
+
+#insta{
+    height: 50px;
+}
+
+.whats{
+    height: 50px;
+}
+
+.conteudo{
+    margin-bottom: 40px;
+    border-top: 0.5px solid white;
+}
+
+.conteudo1{
+    margin-top: 40px;
+}
+
+.conteudo-imagem{
+    background-image: url(img/pexels-andrea-piacquadio-3768131.jpg);
+    height: 500px;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 10px;
+}
+
+.conteudo1-texto {
+    margin: 0 auto;
+    text-align: center;
+    width: 700px;
+    padding: 20px;
+    font-size: 20px;
+    color: #4a27e4;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.conteudo-titulo{
+    text-align: center;
+    color: #ffdfb7;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+}
+
+#conteudo-titulo{
+    margin-top: 30px;
+    text-align: center;
+    color: #ffdfb7;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+}
+
+.sobre-mim{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    color: #660303;
+}
+
+.sobre-mim-paragrafo{
+    margin-bottom: 10px;
+}
+
+#conteudo-titulo2{
+    margin-top: 30px;
+    text-align: center;
+    color: #ffdfb7;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+}
+
+.servicos{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    color: #660303;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+#conteudo-titulo3{
+    margin-top: 30px;
+    text-align: center;
+    color: #ffdfb7;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+}
+
+.formacao{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    color: #660303;
+}
+
+.rodape{
+    border-top: 0.5px solid white;
+}
+
+.rodape-itens{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between ;
+    margin: 10px 50px;
+    gap: 15px;
+}
+
+.copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #660303;
+}
+
+
+#imagem{
+    height: 200px;
+}
+
+#insta-alinhamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo-footer{
+    height: 100px;
+}
+
+.rodape-texto{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    
+}
+
+.texto-espacamento{
+    margin-bottom: 10px;
+}
+
+@media(max-width: 1310px){
+    #imagem{
+        height: 150px;
+    }
+
+    #logo-footer{
+        height: 80px;
+    }
+}
+
+@media(max-width: 1040px){
+    #imagem{
+        height: 120px;
+    }
+
+    #logo-footer{
+        height: 60px;
+    }
+
+    .logo-grau{
+        width: 300px;
+    }
+
+    .rodape-texto{
+        font-size: 18px;
+        
+    }
+
+    #insta{
+        height: 40px;
+    }
+    
+    .whats{
+        height: 40px;
+    }
+}
+
+@media(max-width:750px){
+    .logo{
+        padding-left: 50px;
+    }
+    
+    .insta{
+        padding-right: 50px;
+    }
+    
+    #logo-header{
+        height: 80px;
+    }
+
+    .logo-grau{
+        width: 250px;
+    }
+
+    .rodape-itens{
+        display: flex;
+        align-items: flex-start;
+        margin: 10px 30px;
+        gap: 10px;
+    }
+}
+
+@media(max-width: 700px){
+    .conteudo1-texto {
+        width: auto;
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    #imagem{
+        height: 80px;
+    }
+
+    #logo-footer{
+        height: 40px;
+    }
+
+    .rodape-texto{
+        font-size: 15px;
+        
+    }
+
+    #insta{
+        height: 30px;
+    }
+    
+    .whats{
+        height: 30px;
+    }
+}
+
+@media(max-width:630px){
+    .sobre-mim{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .servicos{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .formacao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media(max-width: 550px){
+    .conteudo1-texto {
+        font-size: 15px;
+    }
+
+    .conteudo-titulo{
+        font-size: 20px;
+    }
+
+    #conteudo-titulo{
+        font-size: 20px;
+    }
+    
+    .sobre-mim{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 15px;
+    }
+
+    #conteudo-titulo2{
+        font-size: 20px;
+    }
+    
+    .servicos{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 15px;
+    }
+
+    #conteudo-titulo3{
+        font-size: 20px;
+    }
+    
+    .formacao{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 15px;
+    }
+
+    #logo-header{
+        height: 50px;
+    }
+
+    #imagem{
+        height: 60px;
+    }
+
+    #logo-footer{
+        height: 30px;
+    }
+
+    .rodape-texto{
+        font-size: 13px;
+        
+    }
+
+    #insta{
+        height: 20px;
+    }
+    
+    .whats{
+        height: 20px;
+    }
+
+    .copy{
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 460px){
+    #imagem{
+        height: 40px;
+    }
+
+    #logo-footer{
+        height: 25px;
+    }
+
+    .rodape-texto{
+        font-size: 10px;
+        
+    }
+
+    .copy{
+        font-size: 10px;
+    }
+
+    .logo-grau{
+        width: 200px;
+    }
+}
+
+@media(max-width: 380px){
+    #logo-header{
+        height: 40px;
+    }
+
+    #imagem{
+        height: 30px;
+    }
+
+    #logo-footer{
+        height: 20px;
+    }
+
+    .rodape-texto{
+        font-size: 8px;
+        
+    }
+
+    .copy{
+        font-size: 8px;
+    }
+}
+
+@media(max-width: 340px){
+    #logo-header{
+        height: 25px;
+    }
+
+    .conteudo-titulo{
+        font-size: 16px;
+    }
+
+    #conteudo-titulo2{
+        font-size: 18px;
+    }
+
+    #insta{
+        height: 17px;
+    }
+    
+    .whats{
+        height: 17px;
+    }
+}
